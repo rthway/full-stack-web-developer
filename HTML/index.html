@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Cheat Sheet</title>
+</head>
+<body>
+    <!-- Document Structure -->
+    <header>
+        <h1>Heading 1</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>Article Title</h2>
+            <p>Article content goes here.</p>
+        </article>
+        <aside>
+            <h2>Aside Title</h2>
+            <p>Aside content goes here.</p>
+        </aside>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2024. All rights reserved.</p>
+        <p>This is a <br> paragraph with a line break.</p>
+
+    </footer>
+    <hr>
+
+    <!-- Text Content -->
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>Paragraph</p>
+    <!--Text Formatting Example-->
+    <h2>Text Formatting Example</h2>
+    <p>
+        This is <b>bold text</b>.<br>
+        This is <strong>important text</strong>.<br>
+        This is <i>italic text</i>.<br>
+        This is <u>Underlined text</u>.<br>
+        This is <em>emphasized text</em>.<br>
+        This is <mark>marked text</mark>.<br>
+        This is <small>smaller text</small>.<br>
+        This is <del>deleted text</del>.<br>
+        This is <ins>inserted text</ins>.<br>
+        This is <sub>subscript text</sub>.<br>
+        This is <sup>superscript text</sup>.<br>
+    </p>
+    <hr>
+
+    <!-- Links and Images -->
+    <a href="https://www.example.com">Anchor Link</a><br>
+    <img src="images/ai-image-generator-two.webp"  alt="Image Description">
+    <hr>
+
+    <!-- Lists -->
+    <h1>Lists</h1>
+    <h2>Ordered HTML List</h2>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>Unordered HTML List</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>HTML Description Lists</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <hr>
+
+    <!-- Forms -->
+    <h2>Forms</h2>
+    <form action="submit.php" method="POST">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="text_input">Text Input:</label><br>
+        <input type="text" id="text_input" name="text_input"><br>
+
+        <!-- Email Input -->
+        <label for="email_input">Email Input:</label><br>
+        <input type="email" id="email_input" name="email_input"><br>
+
+        <!-- Password Input -->
+        <label for="password_input">Password Input:</label><br>
+        <input type="password" id="password_input" name="password_input"><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
+    <!-- Tables -->
+    <h2>Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Horizontal Table Header</h2>
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+    </table>
+
+    <h2>Vertical Table Headers</h2>
+    <table style="width:100%">
+    <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+    </tr>
+    <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>Jackson</td>
+    </tr>
+    <tr>
+        <th>Age</th>  
+        <td>50</td>
+        <td>94</td>
+    </tr>
+    </table>
+
+    <!-- Semantic Elements -->
+    <h2>Semantic Elements</h2>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>Main Content</main>
+    <aside>Aside Content</aside>
+    <footer>Footer</footer>
+    <hr>
+
+    <!-- Audio and Video -->
+    <h2>Audio and Video</h2>
+    <audio controls>
+        <source src="assets/Bon Jovi - Its My Life.mp3" type="audio/mpeg">
+    </audio><br>
+    <video controls>
+        <source src="assets/video template.mp4" type="video/mp4">
+    </video>
+    <hr>
+
+    <!-- Canvas -->
+    <canvas id="myCanvas" width="400" height="100"></canvas>
+
+    <!-- Embedded Content -->
+    <iframe src="https://en.wikipedia.org/wiki/HTML#Development" width="600" height="400"></iframe>
+
+    <!-- Semantic Elements -->
+    <section>Section</section>
+    <article>Article</article>
+    <aside>Aside</aside>
+    <details>
+        <summary>Details</summary>
+        <p>Details content goes here.</p>
+    </details>
+    <figcaption>Figure Caption</figcaption>
+    <figure>
+        <img src="images/ai-image-generator-two.webp" width="300px" alt="Image Description">
+        <figcaption>Image Caption</figcaption>
+    </figure>
+    <header>Header</header>
+    <footer>Footer</footer>
+    <mark>Highlighted Text</mark>
+    <meter value="50" min="0" max="100">50%</meter>
+    <progress value="70" max="100">70%</progress>
+    <time datetime="2024-02-25">February 25, 2024</time>
+    <wbr>
+    <hr>
+
+    <!-- Miscellaneous -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Description of the page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Author Name">
+</body>
+</html>
