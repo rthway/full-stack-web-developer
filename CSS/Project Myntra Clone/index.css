@@ -10,6 +10,7 @@ header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #ededf0;
 }
 .myntra_home{
     height: 45px;
