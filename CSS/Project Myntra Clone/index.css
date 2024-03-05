@@ -7,6 +7,8 @@ header{
     display: flex;
     background-color: #ffffff;
     height: 80px;
+    justify-content: space-between;
+    align-items: center;
 }
 .myntra_home{
     height: 45px;
